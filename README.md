@@ -14,28 +14,18 @@ Modelo de Aprendizaje por Refuerzo: Implementación de Q-learning para determina
 
 Evaluación: Comparación entre la estrategia de precios dinámica (RL) y precios fijos tradicionales, evaluando los ingresos generados.
 
-Conjunto de Datos
+Dataset
 
-El dataset simula un escenario tipo ride-hailing y contiene las siguientes variables:
-
-Número_de_Usuarios: Cantidad de usuarios solicitando el servicio.
-
-Número_de_Conductores: Cantidad de conductores disponibles.
-
-Categoría_de_Ubicación: Tipo de ubicación (Urbana, Suburbana, Rural).
-
-Estado_de_Fidelidad_del_Cliente: Categoría de fidelidad del cliente (Plata, Regular).
-
-Número_de_Viajes_Pasados: Cantidad de viajes previos del cliente.
-
-Calificación_Promedio: Calificación promedio del cliente.
-
-Hora_de_Reserva: Momento del día en que se realizó la reserva (Mañana, Tarde, Noche).
-
-Tipo_de_Vehículo: Tipo de vehículo solicitado (Económico, Premium).
-
-Duración_Estimada_del_Viaje: Tiempo estimado del viaje en minutos.
-
+Number_of_Riders: Number of riders requesting rides.
+Number_of_Drivers: Number of available drivers in the area.
+Location_Category: Location type (Urban, Suburban, Rural).
+Customer_Loyalty_Status: Customer loyalty category (Silver, Regular).
+Number_of_Past_Rides: Number of rides taken by the customer.
+Average_Ratings: Average rating of the customer.
+Time_of_Booking: Time of day when the booking was made (Morning, Afternoon, Evening, Night).
+Vehicle_Type: Type of vehicle requested (Economy, Premium).
+Expected_Ride_Duration: Estimated ride time (in minutes).
+Historical_Cost_of_Ride: Previous cost for the ride.
 Costo_Histórico_del_Viaje: Costo anterior del viaje.
 
 Manejo de Datos Faltantes
