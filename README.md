@@ -1,7 +1,8 @@
-Modelo de Precios Dinámicos para E-Commerce con Aprendizaje por Refuerzo
+Modelo de Precios Dinámicos para E-Commerce con Reinforcement Learning
+
 Descripción del Proyecto
 
-Este proyecto muestra la implementación de un modelo de precios dinámicos usando Aprendizaje por Refuerzo (RL), específicamente Q-learning, para optimizar estrategias de precios en plataformas de e-commerce. Ajustando los precios según la demanda de clientes, precios de la competencia y otras variables del mercado, el modelo busca maximizar los ingresos a través del aprendizaje continuo.
+Este proyecto muestra la implementación de un modelo de precios dinámicos usando Reinforcement Learning (RL), específicamente Q-learning, para optimizar estrategias de precios en plataformas de e-commerce. Ajustando los precios según la demanda de clientes, precios de la competencia y otras variables del mercado, el modelo busca maximizar los ingresos a través del aprendizaje continuo.
 
 El objetivo es entrenar un modelo capaz de ajustar precios de forma dinámica con base en datos históricos y del entorno, ayudando a los negocios a mejorar su estrategia de pricing y aumentar sus ingresos.
 
